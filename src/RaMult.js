@@ -1,6 +1,6 @@
 import React, { useCallback, useEffect, useState } from 'react';
 import functionPlot from 'function-plot';
-import { derivative, evaluate, parse } from 'mathjs';
+import { derivative, parse } from 'mathjs';
 import Table from 'react-bootstrap/Table';
 import { Button } from 'react-bootstrap';
 import { Grid } from '@mui/material';
